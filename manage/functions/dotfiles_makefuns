@@ -1,0 +1,10 @@
+
+dotfiles=( \
+        zsh/.zshrc ~/.zshrc \
+        zsh/.zshenv ~/.zshenv \
+	i3/config ~/.config/i3/config \
+)
+
+dotfiles_deploy() {
+	for f in ${dotfiles:?"dotfilesが設定されてないよ！"}; eval ln -sfnv $DOTPATH/$dotfiles
+}
