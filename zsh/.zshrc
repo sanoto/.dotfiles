@@ -1,4 +1,4 @@
-FPATH="~/.dotfiles/zsh/zshrc:${FPATH}"
+FPATH="${HOME}/.dotfiles/zsh/zshrc-git:${FPATH}"
 
 autoload -Uz zshrc-base && zshrc-base
 autoload -Uz zshrc-prompt && zshrc-prompt
