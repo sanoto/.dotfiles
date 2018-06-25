@@ -17,6 +17,6 @@ export LC_ALL=$LANGUAGE
 export LC_CTYPE=$LANGUAGE
 
 #エディタ
-export EDITOR=emacs
+export EDITOR=vim
 export GIT_EDITOR=$EDITOR
 
