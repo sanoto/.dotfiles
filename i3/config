@@ -3,6 +3,7 @@
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
+set $alt Mod1
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -31,7 +32,7 @@ bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
-bindsym Mod1+F4 kill
+bindsym $alt+F4 kill
 
 # start program launcher
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
