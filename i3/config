@@ -43,7 +43,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 
 # volume setting
 #exec --no-startup-id volumeicon
-exec --no-startup-id pulseaudio
+#exec --no-startup-id pulseaudio
 #exec --no-startup-id kmix
 #exec --no-startup-id plasma-pa
 #bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
