@@ -1,6 +1,0 @@
-
-export DOTFILES=( \
-	zsh/.zshrc ~/.zshrc \
-	zsh/.zshenv ~/.zshenv \
-)
-
