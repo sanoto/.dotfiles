@@ -13,5 +13,11 @@ i3-alt-tab
 ln -sfnv ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -sfnv ~/.dotfiles/zsh/.zshenv ~/.zshenv
 ```
+```
+git submodule update --init --recursive
+```
 
-```git submodule update --init --recursive```
+i3
+```
+ln -sfnv ~/.dotfiles/i3/config ~/.i3/config
+```
