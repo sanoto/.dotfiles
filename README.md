@@ -1,12 +1,15 @@
 # .dotfiles
-## 依存関係
+## 依存関係インストール
+### zsh
+```
+sudo pacman -S zsh
+chsh -s $(which zsh)
+```
 ### i3
-* pacman
 ```
 sudo pacman -S npm terminator pa-applet pavucontrol pulseaudio xorg-xbacklight
+sudo npm install -g i3-alt-tab
 ```
-* npm
-i3-alt-tab
 
 ## セットアップ
 ```
@@ -18,7 +21,7 @@ ln -sfnv ~/.dotfiles/.xprofile ~/.xprofile
 git submodule update --init --recursive
 ```
 
-i3
+i3の設定
 ```
 ln -sfnv ~/.dotfiles/i3/config ~/.i3/config
 ```
