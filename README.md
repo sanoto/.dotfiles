@@ -18,7 +18,7 @@ ln -sfnv ~/.dotfiles/zsh/.zshenv ~/.zshenv
 ln -sfnv ~/.dotfiles/.xprofile ~/.xprofile
 ```
 ```
-git submodule update --init --recursive
+cd ~/.dotfiles && git submodule update --init --recursive && cd ..
 ```
 
 i3の設定
