@@ -12,3 +12,6 @@ export QT_IM_MODULE=fcitx
 export EDITOR=vim
 export GIT_EDITOR=$EDITOR
 
+#path
+export PATH=$PATH:$HOME/flutter/bin
+
