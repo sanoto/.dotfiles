@@ -7,4 +7,5 @@ autoload -Uz zshrc-python && zshrc-python
 autoload -Uz zshrc-alias && zshrc-alias
 autoload -Uz zshrc-npm && zshrc-npm
 autoload -Uz zshrc-ruby && zshrc-ruby
+autoload -Uz zshrc-kubernetes && zshrc-kubernetes
 
